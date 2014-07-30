@@ -2,7 +2,7 @@
   "name": "stukko-dirty",
   "version": "0.0.1",
   "description": "Generates Model instances for dirty.js & Stukko",
-  "main": "/lib/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/origin1tech/stukko-dirty",
   "dependencies": {
+    "bluebird": "^2.2.2",
     "dirty": "^0.9.9",
     "lodash": "^2.4.1",
+    "moment": "^2.7.0",
     "uuid": "^1.4.1"
   }
 }
